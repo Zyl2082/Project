@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+</head>
+<body>
+<script>
+    var money=100;
+    var pay=function(){
+        money-=3;
+        console.log(money);
+    }
+    pay(money);//97
+    console.log(money);//100
+    var n=10;
+    function fun(){
+        var n=10;
+        n++;
+        console.log(n);//11
+        n=9;
+        console.log(n);//9
+    }
+    fun();
+    console.log(n);//9
+
+</script>
+
+</body>
+</html>
