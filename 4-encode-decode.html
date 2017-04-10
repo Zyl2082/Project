@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+</head>
+<body>
+<script>
+    var kw=prompt("请输入关键词：");
+    kw=encodeURIComponent(kw);
+    var path="https:search.jd.com/Search?keyword=";
+    document.write("向服务器发送请求："+path+kw);
+    kw=decodeURIComponent(kw);
+    document.write("<br>");
+    document.write("向服务器解码后"+kw);
+
+</script>
+
+</body>
+</html>
